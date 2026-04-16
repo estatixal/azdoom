@@ -218,7 +218,7 @@ void DebugExecutionManager::HandleInstruction(VMFrameStack *stack, VMReturn *ret
 			event.threadId = 1;
 			m_session->send(event);
 		}
-		// TODO: How to do this in GZDoom?
+		// TODO: How to do this in gzdoom?
 		// Window::ReleaseFocus();
 	}
 	break;

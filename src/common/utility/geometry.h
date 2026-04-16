@@ -114,7 +114,7 @@ inline double SquareDistToLine(double px, double py, double lx1, double ly1, dou
 
 //==========================================================================
 //
-// taken from GZDoom with the divline_t parameters removed
+// taken from gzdoom with the divline_t parameters removed
 //
 //==========================================================================
 

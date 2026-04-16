@@ -52,7 +52,7 @@ const char *GetVersionString();
 #define VER_MINOR 15
 #define VER_REVISION 1
 
-// This should always refer to the GZDoom version a derived port is based on and not reflect the derived port's version number!
+// This should always refer to the gzdoom version a derived port is based on and not reflect the derived port's version number!
 #define ENG_MAJOR 4
 #define ENG_MINOR 15
 #define ENG_REVISION 1
@@ -86,18 +86,18 @@ const char *GetVersionString();
 #define SAVEVER 4560
 
 // This is so that derivates can use the same savegame versions without worrying about engine compatibility
-#define GAMESIG "GZDOOM"
+#define GAMESIG "gzdoom"
 #define BASEWAD "gzdoom.pk3"
 // Set OPTIONALWAD to "" (null) to disable searching for it
 #define OPTIONALWAD "game_support.pk3"
-#define GZDOOM 1
+#define gzdoom 1
 #define VR3D_ENABLED
 
 // More stuff that needs to be different for derivatives.
-#define GAMENAME "GZDoom"
-#define WGAMENAME L"GZDoom"
+#define GAMENAME "gzdoom"
+#define WGAMENAME L"gzdoom"
 #define GAMENAMELOWERCASE "gzdoom"
-#define APPID "org.zdoom.GZDoom"
+#define APPID "org.zdoom.gzdoom"
 #define QUERYIWADDEFAULT true
 #define FORUM_URL "http://forum.zdoom.org/"
 #define BUGS_FORUM_URL	"http://forum.zdoom.org/viewforum.php?f=2"

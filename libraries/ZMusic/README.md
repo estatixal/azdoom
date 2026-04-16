@@ -1,7 +1,7 @@
 # ZMusic
-GZDoom's music system as a standalone library
+gzdoom's music system as a standalone library
 
-Welcome! This repository is a library for use with the projects [GZDoom](https://github.com/coelckers/GZDoom), [Raze](https://github.com/coelckers/Raze), and the newer [PrBoom+](https://github.com/coelckers/prboom-plus).
+Welcome! This repository is a library for use with the projects [gzdoom](https://github.com/coelckers/gzdoom), [Raze](https://github.com/coelckers/Raze), and the newer [PrBoom+](https://github.com/coelckers/prboom-plus).
 
 Compile instructions are pretty simple for most systems.
 

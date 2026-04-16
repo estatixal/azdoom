@@ -1,5 +1,5 @@
 The original Doom source code was released by id Software under the
-GPL v2, but has been relicensed under the GPL v3 for GZDoom.
+GPL v2, but has been relicensed under the GPL v3 for gzdoom.
 See gpl.txt
 
 Parts of the voxel code in the software renderer use code from the 

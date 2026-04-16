@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <component type="desktop-application">
-  <id>org.zdoom.GZDoom</id>
-  <launchable type="desktop-id">org.zdoom.GZDoom.desktop</launchable>
+  <id>org.zdoom.gzdoom</id>
+  <launchable type="desktop-id">org.zdoom.gzdoom.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-3.0</project_license>
 
-  <name>GZDoom</name>
-  <developer id="org.zdoom.GZDoom">
+  <name>gzdoom</name>
+  <developer id="org.zdoom.gzdoom">
     <name>ZDoom team</name>
     <url>https://github.com/zdoom/GZDDoom/graphs/contributors</url>
   </developer>
@@ -25,9 +25,9 @@
   </branding>
 
   <description>
-    <p>GZDoom is a source port for the modern era, supporting current hardware and operating systems
+    <p>gzdoom is a source port for the modern era, supporting current hardware and operating systems
       and sporting a vast array of user options. Make Doom your own again!</p>
-    <p>In addition to Doom, GZDoom supports Heretic, Hexen, Strife, Chex Quest, and fan-created
+    <p>In addition to Doom, gzdoom supports Heretic, Hexen, Strife, Chex Quest, and fan-created
       games like Harmony and Hacx. Meet the entire idTech 1 family!</p>
     <p>Experience mind-bending user-created mods, made possible by ZDoom's advanced mapping features
       and the ZScript language for complex game mechanics and behaviors. Or make a mod of your own!</p>
@@ -52,10 +52,10 @@
     </ul>
     <p>Commercial data files are required to run the supported games. For more info about all
       supported games and their data files, see Help -&gt; List of supported games.</p>
-    <p>For the Flatpak distribution of GZDoom, all file access is restricted to
-      <code>~/.var/app/org.zdoom.GZDoom/.config/gzdoom</code> by default for security reasons.
+    <p>For the Flatpak distribution of gzdoom, all file access is restricted to
+      <code>~/.var/app/org.zdoom.gzdoom/.config/gzdoom</code> by default for security reasons.
       You will need to place your IWADs and PWADS there, or use an application like Flatseal
-      to give GZDoom additional permissions.</p>
+      to give gzdoom additional permissions.</p>
   </description>
 
   <screenshots>

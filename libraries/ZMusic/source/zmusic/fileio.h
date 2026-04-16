@@ -45,7 +45,7 @@ namespace MusicIO
 //
 // This class defines a common file wrapper interface which allows these
 // libraries to work with any kind of file access API, e.g. stdio (provided below),
-// Win32, POSIX, iostream or custom implementations (like GZDoom's FileReader.)
+// Win32, POSIX, iostream or custom implementations (like gzdoom's FileReader.)
 //
 //==========================================================================
 

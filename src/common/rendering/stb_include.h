@@ -16,7 +16,7 @@
 // Fixes:
 //  Michal Klos
 //
-// GZDoom Conversion:
+// gzdoom Conversion:
 //  Jay
 
 #ifndef STB_INCLUDE_STB_INCLUDE_H

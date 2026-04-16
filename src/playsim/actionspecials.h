@@ -144,7 +144,7 @@ DEFINE_SPECIAL(Sector_SetHealth, 151, 3, 3, 3)
 DEFINE_SPECIAL(Teleport_NoStop, 154, 2, 3, 3)
 // portal specials
 DEFINE_SPECIAL(Line_SetPortal, 156, -1, -1, 4)
-// GZDoom/Vavoom specials 
+// gzdoom/Vavoom specials 
 // Although ZDoom doesn't support them it's better to have them defined so that
 // WADs using them somewhere can at least be started without aborting due
 // to an error message.

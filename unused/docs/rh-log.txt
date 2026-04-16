@@ -483,7 +483,7 @@ October 24, 2009  (Changes by Graf Zahl)
   variable.
 - added a stub to the DECORATE parser for defining dynamic lights directly
   in DECORATE. This is needed so that ZDoom remains compatible with any DECORATE 
-  which uses this GZDoom feature in the future.
+  which uses this gzdoom feature in the future.
 
 October 24, 2009
 - Removed the Actor uservar array and replaced it with user-defined variables.
@@ -2287,7 +2287,7 @@ January 10, 2009  (Changes by Graf Zahl)
 - fixed implementation of DF2_NOAUTOAIM flag.
 
 January 7, 2009  (Changes by Graf Zahl)
-- copied some 3D floor fixes from GZDoom.
+- copied some 3D floor fixes from gzdoom.
 - fixed: Crushing polyobject did incomplete checks for blocked moves.
 
 January 5, 2009  (Changes by Graf Zahl)
@@ -2299,7 +2299,7 @@ January 4, 2009  (Changes by Graf Zahl)
   delayed until after its z-coordinate has been set. That means that for 
   map spawns AActor::StaticSpawn may not call P_FindFloorCeiling for such
   actors.
-- added GZDoom's 3D floor physics code. This is not active yet so anything
+- added gzdoom's 3D floor physics code. This is not active yet so anything
   compiled from this code won't have any support for it!
 - Used new functionality to avoid moving the puff around in SpawnDeepSplash.
 - Fixed: P_RailAttack used the shooting actor or a default puff for some splash
@@ -5621,7 +5621,7 @@ January 11, 2008 (Changes by Graf Zahl)
   will also double as the pistol's icon in the AltHUD.
 - Added a generic log display that can show Strife's log messages in all games
   regardless of the current game, active status bar and HUD mode.
-- Added GZDoom's alt HUD.
+- Added gzdoom's alt HUD.
 
 January 10, 2008
 - Fixed: After loading a savegame, G_UnSnapshotLevel() destroyed the
@@ -5636,13 +5636,13 @@ January 10, 2008
 January 10, 2008 (Changes by Graf Zahl)
 - Moved the code that renders the view from D_Display into a virtual function
   of the frame buffer so I can get rid of the last remaining renderer check
-  outside the display code in GZDoom.
+  outside the display code in gzdoom.
 - made V_SetResolution a virtual function in IVideo. It's probably not a perfect
-  solution but at least it allows overriding it (which I need in GZDoom.)
+  solution but at least it allows overriding it (which I need in gzdoom.)
   Note: There's a lot of redundancy between hardware.cpp/h in the SDL and Win32
   folders so some cleaning up might be a good idea.
 - defined a constant for the crosshair menu entry's index to get a direct
-  reference out of the function code. In GZDoom the menu contains different
+  reference out of the function code. In gzdoom the menu contains different
   information.
 - Fixed: The BrainExplosions should not perform any collision detection. To
   achieve this their Damage value must be set to 0 when being spawned.
@@ -5726,7 +5726,7 @@ January 6, 2008 (Changes by Graf Zahl)
 - Added fix for loading during demo playback by Karate Chris.
 - Added scoreboard fix by Karate Chris.
 - Added teamgame fix for menu by Karate Chris.
-- Added GZDoom's Sector_Outside sector type which forces outside fog
+- Added gzdoom's Sector_Outside sector type which forces outside fog
   regardless of ceiling texture.
 
 January 6, 2008
@@ -5876,7 +5876,7 @@ December 27, 2007 (Changes by Graf Zahl)
 - Darkened the console background a little after finding out that on
   very bright title pics it became quite hard to read the console's contents.
 - Fixed: PROP_Translation needed to be changed for the new value format.
-- Added GZDoom's MAPINFO fog parameters as no op dummies so I can use
+- Added gzdoom's MAPINFO fog parameters as no op dummies so I can use
   WADs that contain them without constantly having to edit the MAPINFO.
   It also allows using them to optimize hardware fog for WADs that should
   run with ZDoom as well.
@@ -5996,12 +5996,12 @@ December 23, 2007 (Changes by Graf Zahl)
  * Fixed: ZDoom would crash if an undefined font was used.
  * I also started cleaning up the source a little.  I have been informed that
  when checking for flags the "== flagname" is redundant.
-- Added indexfont anf hudfont from GZDoom to zdoom.pk3 so that they are always 
+- Added indexfont anf hudfont from gzdoom to zdoom.pk3 so that they are always 
   available when defining custom status bars.
 - Added Karate Chris's 'sv_losefrag' submission.
 - Added Karate Chris's 'sv_degeneration' submission.
 - Fixed: 'Bot joined the team' message was passing an FString to Printf.
-- Backported GZDoom's true color font mappings for use with native textures
+- Backported gzdoom's true color font mappings for use with native textures
   when the time comes.
 - Added Karate Chris's 'sv_doubleammo' submission.
 - Added Karate Chris's 'Take' console command submission.
@@ -6049,7 +6049,7 @@ December 20, 2007 (Changes by Graf Zahl)
   because I don't have any DDS textures to check it with.
 - Fixed: FTexture::~FTexture() must destroy the associated native texture
   if present.
-- Modified GZDoom's true color texture copy functions and added them
+- Modified gzdoom's true color texture copy functions and added them
   to generate 32 bit D3D textures. Paletted TGAs and PCXs are also handled
   this way but I don't think these 2 formats are worth some more special
   handling.
@@ -6968,7 +6968,7 @@ January 8, 2007
 
 January 7, 2007 (Changes by Graf Zahl)
 - Fixed: Sorting of files in Zips was broken.
-- Ported GZDoom's deep water splash code so that splashes are handled properly
+- Ported gzdoom's deep water splash code so that splashes are handled properly
   in Boom maps with non-swimmable water.
 - Changed ENDOOM CVAR so that there is an option to show only modified versions.
 
@@ -7144,7 +7144,7 @@ December 16, 2006 (Changes by Graf Zahl)
   makes the data much easier to handle.
 - Merged the fallingdamage setting into one menu item and added Strife damage to it.
 - Moved deathmatch options into their own category in the gameplay options menu.
-- Added the sv_smartaim code from GZDoom which tries to avoid autoaiming
+- Added the sv_smartaim code from gzdoom which tries to avoid autoaiming
   at friendlies or shootable decorations if there are monsters that can be shot.
 - Added: SetThingSpecial treats a tid of 0 as the activator.
 
@@ -7849,7 +7849,7 @@ August 22, 2006
 August 22, 2006 (Changes by Graf Zahl)
 - Removed a few redundant calls to FTexture::GetWidth because all textures
   are now fully initialized when being created.
-- Added GZDoom's HI_START/HI_END namespace and HIRESTEX support.
+- Added gzdoom's HI_START/HI_END namespace and HIRESTEX support.
 - Added sprite scaling support to the weapon drawing code
 
 August 21, 2006 (Changes by Graf Zahl)
@@ -7885,7 +7885,7 @@ August 17, 2006 (Changes by Graf Zahl)
 - Added a check to the map loader to check whether the map label
   is in the same WAD as the following lump.
 - Did some minor reorganization of code in r_data.cpp (mostly to make
-  handling of textures easier in GZDoom.)
+  handling of textures easier in gzdoom.)
 - Did some preparations to allow loading folders on the HD into the lump
   directory.
 - Took MF2_WINDTHRUST off AMorphedMonster. This is something that should not
@@ -8864,11 +8864,11 @@ May 14, 2006 (Changes by Graf Zahl)
 - Added an AltFlash state for weapons.
 - Turned FloatSpeed into an actor property and changed the value to 5
   for all floating Strife actors, as a comment in the source indicated.
-- Added GZDoom's code for Vavoom slope things because I wanted to test
+- Added gzdoom's code for Vavoom slope things because I wanted to test
   something with a map from Silent Steel.
 - Added nocrouch and allowcrouch MAPINFO commands and a DF_NO_CROUCH
   dmflag.
-- Added GZDoom's crouching code after cleaning it up so that adding
+- Added gzdoom's crouching code after cleaning it up so that adding
   crouching sprites will be easier.
 
 May 13, 2006 (Changes by Graf Zahl)
@@ -9598,10 +9598,10 @@ April 14, 2006 (Changes by Graf Zahl)
   * Floating point parameters couldn't be parsed correctly
   * Some code pointers used parameters incorrectly.
   * Parameters with default value 1 didn't work as expected
-- Added GZDoom's HI_START/HI_END lump namespace. Even though it doesn't do
+- Added gzdoom's HI_START/HI_END lump namespace. Even though it doesn't do
   anything (yet) suppporting it allows to make WADs that use hires texture
   replacements but are able to run with ZDoom as well.
-- Added GZDoom's Zip-support but changed it so that lumps are sorted
+- Added gzdoom's Zip-support but changed it so that lumps are sorted
   alphabetically.
 - Added the missing file 'flac/private/float.h' to the repository.
 - Added: For Zip-support the sound code has to be able to load music data 
@@ -9741,11 +9741,11 @@ April 11, 2006 (Changes by Graf Zahl)
 - Made FileReader's methods virtual. Right now this isn't important
   but when ZIP support will be added it is needed. Also added a 
   MemoryReader class that derives from FileReader.
-- Added a pointer check to DI_Acquire and DI_Unacquire. GZDoom definitely
+- Added a pointer check to DI_Acquire and DI_Unacquire. gzdoom definitely
   had problems with that so it might be a good idea to always check these
   pointers.
 - Added an engine signature to the savegame. The inability to distinguish
-  between ZDoom and GZDoom savegames constantly forced me to use some ugly 
+  between ZDoom and gzdoom savegames constantly forced me to use some ugly 
   tricks which broke the versioning system. This may also be useful for
   other derivates that have to save additional data in a savegame.
 - Due to the savegame version bump I removed all compatibility code.
@@ -9789,7 +9789,7 @@ April 11, 2006 (Changes by Graf Zahl)
   display for the automap.
 - Added support for full hub intermission statistics. To make this work
   properly level.time is now being reset after changing hubs.
-- Added GZDoom's local SNDINFO/SNDSEQ code. This was supposed to be in
+- Added gzdoom's local SNDINFO/SNDSEQ code. This was supposed to be in
   .96x but that was cancelled before I had the chance.
 - Made DCanvas::FlatFill virtual so it can be overridden by other
   types of canvases (e.g. OpenGL.)
@@ -9820,7 +9820,7 @@ April 11, 2006 (Changes by Graf Zahl)
 - Fixed: Changed PL_SKYFLAT from 0x8000 to 0x10000 because otherwise it
   doesn't work with linedef indices >= 32768. Also expanded sector_t::sky
   from WORD to int to make this work.
-- Added the flag parser fix from GZDoom. It was still incorrect.
+- Added the flag parser fix from gzdoom. It was still incorrect.
 - Added an escape flag to sc_man. This was necessary to parse the frame names
   correctly which can contain backslashes so they must be excluded from
   converting \" to ".
@@ -9851,12 +9851,12 @@ April 11, 2006 (Changes by Graf Zahl)
 - Fixed: The node builder still used NO_INDEX for initializing non-existent
   sidedefs.
 - Added MaxStepHeight and MaxDropoffHeight actor properties to DECORATE.
-- Added new code pointers from GZDoom: A_FireAssaultGun, A_FadeIn and
+- Added new code pointers from gzdoom: A_FireAssaultGun, A_FadeIn and
   the target inventory functions. Also added changes to several other
   code pointers.
 - Fixed: The FlameThrowerParts were missing the IF_INVBAR flag.
 - Added a third parameter to A_BFGSpray to customize the amount of damage.
-- Added A_DualPainAttack code pointer submitted by Justin for GZDoom.
+- Added A_DualPainAttack code pointer submitted by Justin for gzdoom.
 - Fixed: AFatShot must have a height of 8, not 32.
 - Fixed: AFighterPLayer::DoHealingRadius initialized the armor item
   incorrectly so it was ineffective.
@@ -9994,7 +9994,7 @@ February 6, 2006
   they all need to have MF3_NOBLOCKMONST set.
 - Fixed: APowerCoupling::Die() should destroy the unbroken coupling.
 - Fixed: AActor::TakeSpecialDamage() should allow damage if the actor has
-  no death state at all. (Taken from GZDoom)
+  no death state at all. (Taken from gzdoom)
 - Fixed: Killing something that drops an alarm with the second-stage mauler
   would not show the alarm text if it was directly hit by the main torpedo.
   Added a third argument to P_SpawnSubMissile() that indicates what the

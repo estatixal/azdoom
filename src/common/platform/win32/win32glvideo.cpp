@@ -148,7 +148,7 @@ HWND Win32GLVideo::InitDummy()
 	wc.hCursor = LoadCursor(NULL, IDC_ARROW);
 	wc.hbrBackground = NULL;
 	wc.lpszMenuName = NULL;
-	wc.lpszClassName = L"GZDoomOpenGLDummyWindow";
+	wc.lpszClassName = L"gzdoomOpenGLDummyWindow";
 
 	//Register window class
 	if (!RegisterClass(&wc))
@@ -166,7 +166,7 @@ HWND Win32GLVideo::InitDummy()
 
 	//Create Window
 	if (!(dummy = CreateWindowExW(exStyle,
-		L"GZDoomOpenGLDummyWindow",
+		L"gzdoomOpenGLDummyWindow",
 		WGAMENAME,
 		WS_CLIPSIBLINGS | WS_CLIPCHILDREN | style,
 		0, 0,
@@ -176,7 +176,7 @@ HWND Win32GLVideo::InitDummy()
 		g_hInst,
 		NULL)))
 	{
-		UnregisterClassW(L"GZDoomOpenGLDummyWindow", g_hInst);
+		UnregisterClassW(L"gzdoomOpenGLDummyWindow", g_hInst);
 		return 0;
 	}
 	ShowWindow(dummy, SW_HIDE);
@@ -193,7 +193,7 @@ HWND Win32GLVideo::InitDummy()
 void Win32GLVideo::ShutdownDummy(HWND dummy)
 {
 	DestroyWindow(dummy);
-	UnregisterClassW(L"GZDoomOpenGLDummyWindow", GetModuleHandle(NULL));
+	UnregisterClassW(L"gzdoomOpenGLDummyWindow", GetModuleHandle(NULL));
 }
 
 

@@ -1,6 +1,6 @@
 //
 //  midisources.h
-//  GZDoom
+//  gzdoom
 //
 //  Created by Christoph Oelckers on 23.02.18.
 //

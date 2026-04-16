@@ -1382,7 +1382,7 @@ static int PatchThing (int thingy, int flags)
 		}
 		else if (linelen == 11 && stricmp(Line1, "melee range") == 0)
 		{
-			info->meleerange = DEHToDouble(val) - 20;	// -20 is needed because DSDA subtracts it in P_CheckMeleeRange, while GZDoom does not.
+			info->meleerange = DEHToDouble(val) - 20;	// -20 is needed because DSDA subtracts it in P_CheckMeleeRange, while gzdoom does not.
 		}
 		else if (linelen == 12 && stricmp(Line1, "dropped item") == 0)
 		{
@@ -1487,7 +1487,7 @@ static int PatchThing (int thingy, int flags)
 			info->missilechancemult = DEHToDouble(val);
 		}
 
-		// [XA] Fields for common GZDoom-specific values that
+		// [XA] Fields for common gzdoom-specific values that
 		// are desirable to set in a cross-port DEHACKED mod.
 		// adding these prevents users from having to reimplement
 		// actors in zscript just to define these few fields.

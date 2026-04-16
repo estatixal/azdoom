@@ -129,7 +129,7 @@ namespace
 	{
 		// specialUI is tracking a state where high-res console fonts are actually required, and
 		// aren't actually rendered correctly in 320x200. this forces the game to revert to the 640x400
-		// minimum set in GZDoom 4.0.0, but only while those fonts are required.
+		// minimum set in gzdoom 4.0.0, but only while those fonts are required.
 
 		static bool lastspecialUI = false;
 

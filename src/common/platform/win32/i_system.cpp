@@ -6,7 +6,7 @@
 ** Copyright 1998-2009 Randy Heit
 ** Copyright (C) 2007-2012 Skulltag Development Team
 ** Copyright (C) 2007-2016 Zandronum Development Team
-** Copyright (C) 2017-2022 GZDoom Development Team
+** Copyright (C) 2017-2022 gzdoom Development Team
 ** All rights reserved.
 **
 ** Redistribution and use in source and binary forms, with or without

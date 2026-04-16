@@ -6,7 +6,7 @@
  * PlayStation XA (ADPCM) source support for MultiVoc
  * Adapted and remixed from superxa2wav 
  *
- * taken from EDuke32 and adapted for GZDoom by Christoph Oelckers
+ * taken from EDuke32 and adapted for gzdoom by Christoph Oelckers
  */
 
 

@@ -4,7 +4,7 @@
 // Copyright 1994-1996 Raven Software
 // Copyright 1999-2016 Randy Heit
 // Copyright 2002-2016 Christoph Oelckers
-// Copyright 2017-2025 GZDoom Maintainers and Contributors
+// Copyright 2017-2025 gzdoom Maintainers and Contributors
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by

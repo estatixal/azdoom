@@ -6,7 +6,7 @@ VSMatrix - Very Simple Matrix Library
 
 http://www.lighthouse3d.com/very-simple-libs
 
-This is a simplified version of VSMatrix that has been adjusted for GZDoom's needs.
+This is a simplified version of VSMatrix that has been adjusted for gzdoom's needs.
 
 ----------------------------------------------------*/
 

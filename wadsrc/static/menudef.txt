@@ -1045,7 +1045,7 @@ OptionValue VanillaTrans
 {
 	0.0, "$OPTVAL_VTFZDOOM"
 	1.0, "$OPTVAL_VTFVANILLA"
-	2.0, "$OPTVAL_VTAZDOOM"
+	2.0, "$OPTVAL_VTgzdoom"
 	3.0, "$OPTVAL_VTAVANILLA"
 }
 

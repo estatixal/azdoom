@@ -179,7 +179,7 @@ endif()
 
 if(PROJECT_SOURCE_DIR STREQUAL CMAKE_SOURCE_DIR)
 	set(CPACK_PACKAGE_CONTACT "First Last <example@example.com>" CACHE STRING "Contact info for archive maintainer.")
-	set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "GZDoom's music system as a standalone library")
+	set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "gzdoom's music system as a standalone library")
 	string(TOLOWER "${PROJECT_NAME}" CPACK_PACKAGE_NAME)
 	set(CPACK_PACKAGE_NAME "lib${CPACK_PACKAGE_NAME}")
 	# Use same prefix for packaging for consistency

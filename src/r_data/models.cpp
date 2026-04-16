@@ -2,7 +2,7 @@
 //---------------------------------------------------------------------------
 //
 // Copyright 2005-2016 Christoph Oelckers
-// Copyright 2017-2025 GZDoom Maintainers and Contributors
+// Copyright 2017-2025 gzdoom Maintainers and Contributors
 // All rights reserved.
 //
 // This program is free software: you can redistribute it and/or modify

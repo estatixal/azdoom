@@ -71,7 +71,7 @@ of the offset garbage, lest your mix splatter like crazy.
 * The Fat Man, who created the famous 2-op and 4-op patches everyone knows
 * Diode Milliampere, who made FM synth popular again
 * Patchouli, for keeping my spirits up
-* Graf Zahl, for continuing ZDoom as GZDoom
+* Graf Zahl, for continuing ZDoom as gzdoom
 * Randi, for implementing the OPL Emulation in ZDoom
 * Fisk, for miscellaneous feedback and MIDIs to test
 * Stewboy, for the Ancient Aliens MIDIs to test

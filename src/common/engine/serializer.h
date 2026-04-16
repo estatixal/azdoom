@@ -70,7 +70,7 @@ class FSerializer
 public:
 	FWriter *w = nullptr;
 	FReader *r = nullptr;
-	bool soundNamesAreUnique = false; // While in GZDoom, sound names are unique, that isn't universally true - let the serializer handle both cases with a flag.
+	bool soundNamesAreUnique = false; // While in gzdoom, sound names are unique, that isn't universally true - let the serializer handle both cases with a flag.
 
 	unsigned ArraySize();
 	void WriteKey(const char *key);

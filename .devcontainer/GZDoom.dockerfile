@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 LABEL org.opencontainers.image.authors="CandiceJoy <candice@candicejoy.com>"
 LABEL author="CandiceJoy"
-LABEL description="GZDoom compilation image (Designed for GZDoom 4.11pre)"
+LABEL description="gzdoom compilation image (Designed for gzdoom 4.11pre)"
 LABEL verion="4.11pre"
 
 # Update these as needed

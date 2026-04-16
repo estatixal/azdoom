@@ -94,7 +94,7 @@ public:
 class IIndexBuffer : virtual public IBuffer
 {
 	// Element size is fixed to 4, thanks to OpenGL requiring this info to be coded into the glDrawElements call.
-	// This mostly prohibits a more flexible buffer setup but GZDoom doesn't use any other format anyway.
+	// This mostly prohibits a more flexible buffer setup but gzdoom doesn't use any other format anyway.
 	// Ob Vulkam, element size is a buffer property and of no concern to the drawing functions (as it should be.)
 };
 

@@ -2372,7 +2372,7 @@ void FParser::SF_IsPlayerObj(void)
 
 //============================================================================
 //
-// Inventory stuff - mostly new to GZDoom
+// Inventory stuff - mostly new to gzdoom
 //
 // all the original functions are still supported but they have not
 // been expanded from their original and are limited as a result
@@ -2612,7 +2612,7 @@ void FParser::SF_PlayerSelectedWeapon()
 
 //==========================================================================
 //
-// new for GZDoom: named inventory handling
+// new for gzdoom: named inventory handling
 //
 //==========================================================================
 
@@ -2635,7 +2635,7 @@ void FParser::SF_GiveInventory(void)
 
 //==========================================================================
 //
-// new for GZDoom: named inventory handling
+// new for gzdoom: named inventory handling
 //
 //==========================================================================
 
@@ -2658,7 +2658,7 @@ void FParser::SF_TakeInventory(void)
 
 //==========================================================================
 //
-// new for GZDoom: named inventory handling
+// new for gzdoom: named inventory handling
 //
 //==========================================================================
 
@@ -3545,7 +3545,7 @@ void FParser::SF_SetCorona(void)
 
 //==========================================================================
 //
-// new for GZDoom: Gets the levelnum
+// new for gzdoom: Gets the levelnum
 //
 //==========================================================================
 
@@ -3558,7 +3558,7 @@ void FParser::SF_LevelNum()
 
 //==========================================================================
 //
-// new for GZDoom
+// new for gzdoom
 //
 //==========================================================================
 
@@ -3581,7 +3581,7 @@ void FParser::SF_MobjRadius(void)
 
 //==========================================================================
 //
-// new for GZDoom
+// new for gzdoom
 //
 //==========================================================================
 
@@ -3604,7 +3604,7 @@ void FParser::SF_MobjHeight(void)
 
 //==========================================================================
 //
-// new for GZDoom
+// new for gzdoom
 //
 //==========================================================================
 
@@ -3664,7 +3664,7 @@ void FParser::SF_ThingCount(void)
 
 //==========================================================================
 //
-// new for GZDoom: Sets a sector color
+// new for gzdoom: Sets a sector color
 //
 //==========================================================================
 
@@ -3757,7 +3757,7 @@ void FParser::SF_SpawnShot2(void)
 
 //==========================================================================
 //
-// new for GZDoom
+// new for gzdoom
 //
 //==========================================================================
 
@@ -3778,7 +3778,7 @@ void  FParser::SF_KillInSector()
 
 //==========================================================================
 //
-// new for GZDoom: Sets a new line trigger type (Doom format!)
+// new for gzdoom: Sets a new line trigger type (Doom format!)
 // (Sure, this is not particularly useful. But having it made it possible
 //  to fix a few annoying bugs in some old maps ;) )
 //
@@ -3812,7 +3812,7 @@ void FParser::SF_SetLineTrigger()
 
 //==========================================================================
 //
-// new for GZDoom: Call a Hexen line special
+// new for gzdoom: Call a Hexen line special
 //
 //==========================================================================
 
@@ -4222,7 +4222,7 @@ void DFraggleThinker::InitFunctions()
 	gscr->NewFunction("intvalue", &FParser::SF_IntValue);
 	gscr->NewFunction("fixedvalue", &FParser::SF_FixedValue);
 
-	// new for GZDoom
+	// new for gzdoom
 	gscr->NewFunction("spawnshot2", &FParser::SF_SpawnShot2);
 	gscr->NewFunction("setcolor", &FParser::SF_SetColor);
 	gscr->NewFunction("objradius", &FParser::SF_MobjRadius);

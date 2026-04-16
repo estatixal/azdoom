@@ -22,7 +22,7 @@
 **    documentation and/or other materials provided with the distribution.
 ** 3. The name of the author may not be used to endorse or promote products
 **    derived from this software without specific prior written permission.
-** 4. When not used as part of GZDoom or a GZDoom derivative, this code will be
+** 4. When not used as part of gzdoom or a gzdoom derivative, this code will be
 **    covered by the terms of the GNU Lesser General Public License as published
 **    by the Free Software Foundation; either version 2.1 of the License, or (at
 **    your option) any later version.
@@ -133,7 +133,7 @@ static int WallInFront(FGLSectionLine *wal1, FGLSectionLine *wal2)
 // around so we can only compare angle differences.
 //
 // Rules:
-// 1. Any bunch can span at most 180°.
+// 1. Any bunch can span at most 180ï¿½.
 // 2. 2 bunches can never overlap at both ends
 // 3. if there is an overlap one of the 2 starting points must be in the
 //    overlapping area.
@@ -533,9 +533,9 @@ private:
 				}
 				else if (!inbunch || startangle - ang2 >= ANGLE_180)
 				{
-					// don't let a bunch span more than 180° to avoid problems.
+					// don't let a bunch span more than 180ï¿½ to avoid problems.
 					// This limitation ensures that the combined range of 2
-					// bunches will always be less than 360° which simplifies
+					// bunches will always be less than 360ï¿½ which simplifies
 					// the distance comparison code because it prevents a 
 					// situation where 2 bunches may overlap at both ends.
 					D(Printf(PRINT_LOG, "Starting bunch %d at line %d\n",Bunches.Size(), ln->linedef - lines));

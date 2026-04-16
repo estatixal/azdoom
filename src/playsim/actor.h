@@ -1182,7 +1182,7 @@ public:
 	ActorFlags6		flags6;			// Shit! Where did all the flags go?
 	ActorFlags7		flags7;			// WHO WANTS TO BET ON 8!?
 	ActorFlags8		flags8;			// I see your 8, and raise you a bet for 9.
-	ActorFlags9		flags9;			// Happy ninth actor flag field GZDoom !
+	ActorFlags9		flags9;			// Happy ninth actor flag field gzdoom !
 	double			Floorclip;		// value to use for floor clipping
 	double			radius, Height;		// for movement checking
 

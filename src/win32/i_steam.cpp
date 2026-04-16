@@ -376,12 +376,12 @@ TArray<FString> I_GetBethesdaPath()
 		// Alternate DOS versions of Doom and Doom II (referred to as "Original" in the
 		// Bethesda Launcher). While the DOS versions that come with the Unity ports are
 		// unaltered, these use WADs from the European PSN versions. These WADs are currently
-		// misdetected by GZDoom: DOOM.WAD is detected as the Unity version (which it's not),
+		// misdetected by gzdoom: DOOM.WAD is detected as the Unity version (which it's not),
 		// while DOOM2.WAD is detected as the original DOS release despite having Doom 3: BFG
 		// Edition's censored secret level titles (albeit only in the title patches, not in
 		// the automap). Unfortunately, these WADs have exactly the same lump names as the WADs
 		// they're misdetected as, so it's not currently possible to distinguish them using
-		// GZDoom's current IWAD detection system. To prevent them from possibly overriding the
+		// gzdoom's current IWAD detection system. To prevent them from possibly overriding the
 		// real Unity DOOM.WAD and DOS DOOM2.WAD, these paths have been commented out.
 		//"Ultimate DOOM/base",
 		//"DOOM II/base",

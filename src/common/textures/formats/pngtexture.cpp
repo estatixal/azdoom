@@ -715,7 +715,7 @@ FGameTexture *PNGTexture_CreateFromFile(PNGHandle *png, const FString &filename)
 	uint8_t filter = data.ReadUInt8();
 	uint8_t interlace = data.ReadUInt8();
 
-	// Reject anything that cannot be put into a savegame picture by GZDoom itself.
+	// Reject anything that cannot be put into a savegame picture by gzdoom itself.
 	if (compression != 0 || filter != 0 || interlace > 0 || bitdepth != 8 || (colortype != 2 && colortype != 3)) return nullptr;
 	else return MakeGameTexture(new FPNGFileTexture (png->File, width, height, colortype), nullptr, ETextureType::Override);
 }

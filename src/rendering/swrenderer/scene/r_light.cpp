@@ -78,7 +78,7 @@ namespace swrenderer
 			else if (player->fixedlightlevel >= 0 && player->fixedlightlevel < NUMCOLORMAPS)
 			{
 				fixedlightlev = player->fixedlightlevel * 256;
-				// [SP] Emulate GZDoom's light-amp goggles.
+				// [SP] Emulate gzdoom's light-amp goggles.
 				if (r_fullbrightignoresectorcolor && fixedlightlev >= 0)
 				{
 					fixedcolormap = &FullNormalLight;

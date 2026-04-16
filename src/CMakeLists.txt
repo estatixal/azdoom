@@ -49,7 +49,7 @@ if( NOT PROJECT_LIBRARIES )
 	set( PROJECT_LIBRARIES "" )
 endif()
 
-add_definitions( -DTHIS_IS_GZDOOM )
+add_definitions( -DTHIS_IS_gzdoom )
 
 if( WIN32 )
 
@@ -1463,16 +1463,16 @@ install(DIRECTORY "${PROJECT_BINARY_DIR}/soundfonts" "${PROJECT_BINARY_DIR}/fm_b
 
 # Install Linux desktop launcher, icon and metadata
 if( UNIX AND NOT APPLE )
-	install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/posix/freedesktop/org.zdoom.GZDoom.desktop
+	install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/posix/freedesktop/org.zdoom.gzdoom.desktop
 			DESTINATION share/applications
 			PERMISSIONS WORLD_EXECUTE WORLD_READ GROUP_READ GROUP_EXECUTE OWNER_READ OWNER_WRITE OWNER_EXECUTE)
-	install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/posix/freedesktop/org.zdoom.GZDoom.metainfo.xml
+	install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/posix/freedesktop/org.zdoom.gzdoom.metainfo.xml
 			DESTINATION share/metainfo
 			PERMISSIONS WORLD_READ GROUP_READ GROUP_EXECUTE OWNER_READ OWNER_WRITE)
-	install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/posix/freedesktop/org.zdoom.GZDoom.svg
+	install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/posix/freedesktop/org.zdoom.gzdoom.svg
 			DESTINATION share/icons/hicolor/scalable/apps
 			PERMISSIONS WORLD_READ GROUP_READ GROUP_EXECUTE OWNER_READ OWNER_WRITE)
-	install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/posix/freedesktop/org.zdoom.GZDoom-mime.xml
+	install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/posix/freedesktop/org.zdoom.gzdoom-mime.xml
 			DESTINATION share/mime/packages
 			PERMISSIONS WORLD_READ GROUP_READ GROUP_EXECUTE OWNER_READ OWNER_WRITE)
 	# note:

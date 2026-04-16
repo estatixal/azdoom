@@ -764,9 +764,9 @@ void MapLoader::SpawnSpecials ()
 			//	- 0: normal (handled here)
 			//	- 1: copy (handled by the portal they copy)
 			//	- 2: EE-style skybox (handled by the camera object)
-			//  - 3: EE-style flat portal (GZDoom HW renderer only for now)
-			//  - 4: EE-style horizon portal (GZDoom HW renderer only for now)
-			//  - 5: copy portal to line (GZDoom HW renderer only for now)
+			//  - 3: EE-style flat portal (gzdoom HW renderer only for now)
+			//  - 4: EE-style horizon portal (gzdoom HW renderer only for now)
+			//  - 5: copy portal to line (gzdoom HW renderer only for now)
 			//  - 6: linked portal
 			//	other values reserved for later use
 			// arg 2 = 0:floor, 1:ceiling, 2:both

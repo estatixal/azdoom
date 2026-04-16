@@ -57,7 +57,7 @@
 #include <atomic>
 
 FDynamicColormap NormalLight;
-FDynamicColormap FullNormalLight; //[SP] Emulate GZDoom brightness
+FDynamicColormap FullNormalLight; //[SP] Emulate gzdoom brightness
 bool NormalLightHasFixedLights;
 
 FSWColormap realcolormaps;

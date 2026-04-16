@@ -332,7 +332,7 @@ class USDFParser : public UDMFParserBase
 				{
 				case NAME_Pagename:
 					if (namespace_bits != Gz)
-						sc.ScriptMessage("'PageName' keyword only supported in the GZDoom namespace!");
+						sc.ScriptMessage("'PageName' keyword only supported in the gzdoom namespace!");
 					else
 						node->ThisNodeName = CheckString(key);
 					break;
@@ -572,7 +572,7 @@ public:
 			namespc = sc.String;
 			switch(namespc.GetIndex())
 			{
-			case NAME_GZDoom:
+			case NAME_gzdoom:
 				namespace_bits = Gz;
 				break;
 			case NAME_ZDoom:

@@ -1,5 +1,5 @@
 ===============================================================================
-GZDoom Strife Dialog Format v1.0
+gzdoom Strife Dialog Format v1.0
 based on ZDoom Strife Dialog Format ZDoom v1.1 - 23.08.2010
 
     Copyright (c) 2019 Rachael Alexanderson
@@ -28,19 +28,19 @@ II. Implementation Semantics
 III. Changes to ZSDF spec
 =======================================
 
-    GZDoom Strife Dialogue format implements the ZSDF base specification as described with
+    gzdoom Strife Dialogue format implements the ZSDF base specification as described with
     the improvement of being able to name pages using strings.
 
-    GZDoom-format dialogues need to start with this line:
+    gzdoom-format dialogues need to start with this line:
 
-    namespace = "GZDoom";
+    namespace = "gzdoom";
 
 
 ---------------------
 III.A : Conversations
 ---------------------
 
-    This block only lists the newly added fields. Currently GZDoom only modifies the following
+    This block only lists the newly added fields. Currently gzdoom only modifies the following
     fields and adds the "pagename" field to the specification:
 
     conversation // Starts a dialog.

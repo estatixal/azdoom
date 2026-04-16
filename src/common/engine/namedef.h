@@ -77,7 +77,7 @@ xx(New)
 xx(Static)
 xx(Staticconst)
 
-// compatibility crap that GZDoom needs in the backend.
+// compatibility crap that gzdoom needs in the backend.
 xx(ACS_NamedExecuteWithResult)
 xx(__decorate_internal_int__)
 xx(__decorate_internal_bool__)

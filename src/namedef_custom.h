@@ -1,4 +1,4 @@
-// GZDoom specific names
+// gzdoom specific names
 
 xx(Doom)
 xx(Heretic)
@@ -690,7 +690,7 @@ xx(Walking)
 xx(ZDoom)
 xx(ZDoomTranslated)
 xx(Vavoom)
-xx(GZDoom)
+xx(gzdoom)
 xx(Eternity)
 xx(Dsda)
 

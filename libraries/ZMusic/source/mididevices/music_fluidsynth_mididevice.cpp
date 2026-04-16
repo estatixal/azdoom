@@ -479,7 +479,7 @@ void Fluid_SetupConfig(const char* patches, std::vector<std::string> &patch_path
 
 	if (systemfallback)
 	{
-		// The following will only be used if no soundfont at all is provided, i.e. even the standard one coming with GZDoom is missing.
+		// The following will only be used if no soundfont at all is provided, i.e. even the standard one coming with gzdoom is missing.
 #ifdef __unix__
 		// This is the standard location on Ubuntu.
 		Fluid_SetupConfig("/usr/share/sounds/sf2/FluidR3_GS.sf2:/usr/share/sounds/sf2/FluidR3_GM.sf2", patch_paths, false);

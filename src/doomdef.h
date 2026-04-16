@@ -3,7 +3,7 @@
 // Copyright 1993-1996 id Software
 // Copyright 1999-2016 Randy Heit
 // Copyright 2002-2016 Christoph Oelckers
-// Copyright 2017-2025 GZDoom Maintainers and Contributors
+// Copyright 2017-2025 gzdoom Maintainers and Contributors
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -254,7 +254,7 @@ enum
 	BCOMPATF_LINKFROZENPROPS	= 1 << 6,	// Clearing PROP_TOTALLYFROZEN or PROP_FROZEN also clears the other
 	BCOMPATF_FLOATBOB			= 1 << 8,	// Use Hexen's original method of preventing floatbobbing items from falling down
 	BCOMPATF_NOSLOPEID			= 1 << 9,	// disable line IDs on slopes.
-	BCOMPATF_CLIPMIDTEX			= 1 << 10,	// Always Clip midtex's in the software renderer (required to run certain GZDoom maps, has no effect in the hardware renderer)
+	BCOMPATF_CLIPMIDTEX			= 1 << 10,	// Always Clip midtex's in the software renderer (required to run certain gzdoom maps, has no effect in the hardware renderer)
 	BCOMPATF_NOSECTIONMERGE		= 1 << 11,	// (for IWAD maps) keep separate sections for sectors with intra-sector linedefs. 
 	BCOMPATF_NOMIRRORS			= 1 << 12,	// disable mirrors, for maps that have broken setups.
 };

@@ -333,7 +333,7 @@ int VMScriptFunction::FirstScriptCall(VMFunction *func, VMValue *params, int num
 {
 	// [Player701] Check that we aren't trying to call an abstract function.
 	// This shouldn't happen normally, but if it does, let's catch this explicitly
-	// rather than let GZDoom crash.
+	// rather than let gzdoom crash.
 	if (func->VarFlags & VARF_Abstract)
 	{
 		ThrowAbortException(X_OTHER, "attempt to call abstract function %s.", func->PrintableName);

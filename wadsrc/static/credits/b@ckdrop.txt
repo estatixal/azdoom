@@ -1,4 +1,4 @@
-b@ckdrop.png - Created for GZDoom by Nigel "Enjay" Rowand
+b@ckdrop.png - Created for gzdoom by Nigel "Enjay" Rowand
 Creation year: 2020
 Licensed as CC-BY 3.0 (the mentioned file above, only)
 

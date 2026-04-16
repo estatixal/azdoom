@@ -70,7 +70,7 @@ struct FVoxelDef
 	FVoxel *Voxel;
 	int PlacedSpin;			// degrees/sec to spin actors without MF_DROPPED set
 	int DroppedSpin;		// degrees/sec to spin actors with MF_DROPPED set
-	int VoxeldefIndex;		// Needed by GZDoom
+	int VoxeldefIndex;		// Needed by gzdoom
 	double		Scale;
 	DAngle		AngleOffset;// added to actor's angle to compensate for wrong-facing voxels
 	double		xoffset;

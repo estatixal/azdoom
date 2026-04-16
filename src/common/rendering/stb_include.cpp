@@ -16,7 +16,7 @@
 // Fixes:
 //  Michal Klos
 //
-// GZDoom Conversion:
+// gzdoom Conversion:
 //  Jay
 
 #include "stb_include.h"

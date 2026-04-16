@@ -1,10 +1,10 @@
-GZDoom game content
+gzdoom game content
 
-Copyright (c) 1998-2025 ZDoom + GZDoom teams, and contributors
+Copyright (c) 1998-2025 ZDoom + gzdoom teams, and contributors
 
 The content in here is based on original game content, i.e.
 
-- You may not sell this work - this also means that this file may not be distributed with commercial standalone games based on the GZDoom engine.
+- You may not sell this work - this also means that this file may not be distributed with commercial standalone games based on the gzdoom engine.
 
 - Your work must comply with id Software's original licenses (i.e. they must only work on the game from which they originated)
 

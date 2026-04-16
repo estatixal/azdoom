@@ -1,5 +1,5 @@
 // Copyright (c) 2025 Rachael Alexanderson
-// Copyright (c) 2025 GZDoom Maintainers and Contributors
+// Copyright (c) 2025 gzdoom Maintainers and Contributors
 // 
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are met:

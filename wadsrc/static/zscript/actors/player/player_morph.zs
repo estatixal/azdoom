@@ -135,7 +135,7 @@ extend class PlayerPawn
 			morphed.Translation = Translation;
 
 		morphed.Angle = Angle;
-		morphed.Pitch = Pitch; // Allow pitch here since mouse look in GZDoom is far more common than Heretic/Hexen.
+		morphed.Pitch = Pitch; // Allow pitch here since mouse look in gzdoom is far more common than Heretic/Hexen.
 		morphed.Target = Target;
 		morphed.Tracer = Tracer;
 		morphed.Master = Master;

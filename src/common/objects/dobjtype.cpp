@@ -5,7 +5,7 @@
 **---------------------------------------------------------------------------
 ** Copyright 1998-2016 Randy Heit
 ** Copyright 2005-2016 Christoph Oelckers
-** Copyright 2017-2025 GZDoom Maintainers and Contributors
+** Copyright 2017-2025 gzdoom Maintainers and Contributors
 ** All rights reserved.
 **
 ** Redistribution and use in source and binary forms, with or without

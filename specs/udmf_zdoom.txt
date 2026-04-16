@@ -376,7 +376,7 @@ Note: All <bool> fields default to false unless mentioned otherwise.
 	  skyfloor2 = <string>             // defines secondary lower sky for this sector. (for lightning or transparent layers)
 	  skyceiling2 = <string>           // defines secondary upper sky for this sector.
 	  
-	  colormap = <string>;            // only provided for backwards compatibility. Do not use in GZDoom projects.
+	  colormap = <string>;            // only provided for backwards compatibility. Do not use in gzdoom projects.
 	  
       xthrust = <float>;              // applies thrust to actors - x-magnitude
       ythrust = <float>;              // applies thrust to actors - y-magnitude

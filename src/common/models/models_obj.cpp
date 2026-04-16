@@ -215,7 +215,7 @@ bool FOBJModel::Load(const char* fn, int lumpnum, const char* buffer, int length
 
 	if (curSurface == nullptr)
 	{ // No valid materials detected
-		FTextureID dummyMtl = LoadSkin("", "-NOFLAT-"); // Built-in to GZDoom
+		FTextureID dummyMtl = LoadSkin("", "-NOFLAT-"); // Built-in to gzdoom
 		curSurface = new OBJSurface(dummyMtl);
 	}
 	curSurface->numFaces = curSurfFaceCount;
